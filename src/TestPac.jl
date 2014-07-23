@@ -1,5 +1,5 @@
 module TestPac
-
-# package code goes here
-
+  export hello
+  
+  hello(name::Union(String, Symbol)) = "hello $name"
 end # module
